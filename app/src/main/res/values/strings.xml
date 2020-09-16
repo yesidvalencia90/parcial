@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Finantory</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="registrar">Registrarse</string>
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="mainMenuTitle">Finantory</string>
+    <string name="register">Registrarse</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="formTitle">Registrarse Como Usuario</string>
+    <string name="selectImage">Foto de Perfil</string>
+    <string name="sendForm">Registrarse</string>
+    <string name="cancelForm">Cancelar</string>
+    <string name="formPhoneNumber">Numero Telefonico</string>
+    <string name="formCc">Identificacion</string>
+    <string name="formLastName">Apellido</string>
+    <string name="formName">Nombre</string>
+    <string name="logIn">Iniciar Sesion</string>
+    <string name="userName">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="loginBtn">Aceptar</string>
+    <string name="email">Correo Electronico</string>
+    <string name="wallet">Billetera</string>
+    <string name="registerExpense">Registrar Gasto</string>
+    <string name="record">Historial</string>
+    <string name="walletTitle">Billetera</string>
+    <string name="back">Volver</string>
+    <string name="addMoney">Agregar Saldo</string>
+    <string name="avaMoney">Saldo Disponible</string>
+    <string name="hardCodedMoney">5.400.00,00</string>
+    <string name="registerExpenseTitle">Registrar gasto</string>
+    <string name="amount">Valor</string>
+    <string name="category">Categoria</string>
+    <string name="description">Descripcion</string>
+    <string name="obs">Observaciones</string>
+    <string-array name="categories">
+        <item>Mercado</item>
+        <item>Restaurante</item>
+        <item>Farmacia</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="record">
+        <item>Mercado - $450.000,00</item>
+        <item>Restaurante - $120.000,00</item>
+        <item>Farmacia - 35.600,00</item>
+        <item>Otro - 120.000,00</item>
+    </string-array>
+</resources>

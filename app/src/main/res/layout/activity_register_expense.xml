@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registerExpenseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="529dp"
+        android:paddingTop="28dp"
+        android:paddingBottom="15dp"
+        android:text="@string/registerExpenseTitle"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="458dp"
+        android:hint="@string/amount"
+        android:inputType="number"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="365dp"
+        android:hint="@string/description" />
+
+    <!-- <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="411dp"
+        android:hint="@string/category"
+        android:spinnerMode="dropdown"
+        /> -->
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="412dp"
+        android:hint="@string/category" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/obs"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="235dp"
+        android:hint="@string/obs"
+        android:inputType="textMultiLine"
+        android:maxLines="10" />
+
+    <Button
+        android:id="@+id/addMoney"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="registerExpense"
+        android:text="@string/registerExpense" />
+
+    <Button
+        android:id="@+id/back"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginRight="212dp"
+        android:layout_marginBottom="7dp"
+        android:onClick="back"
+        android:text="@string/back" />
+
+
+</RelativeLayout>
